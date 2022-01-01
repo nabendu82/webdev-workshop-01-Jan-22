@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+body{
+    background-color: hsl(59, 60%, 90%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+h1 {
+    color: darkmagenta;
+}
+
+h3{
+    background-color: rgb(248, 232, 232);
+    color: #A60C56;
+    padding: 5px;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.8em;
+}
+
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: rgb(8, 16, 103);
+    font-family: 'Pushster', Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+#second-p{
+    color: rgb(50, 58, 4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+#box-model{
+    background-color: lightgray;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    background-color: rgb(8, 16, 103);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: darkmagenta;
+    cursor: pointer;
+}
